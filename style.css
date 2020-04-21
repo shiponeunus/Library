@@ -1,0 +1,69 @@
+body, html {
+  /* background-color: #282c34; */
+background: radial-gradient(circle, rgba(117,250,172,1) 0%, rgba(0,155,255,1) 100%, rgba(0,0,0,1) 100%);
+  color: #eee;
+  height: 100%;
+
+}
+
+.mainContainer {
+  padding: 0 10vw 0 10vw;
+}
+
+img {
+  width: 100%;
+}
+
+.section{
+  grid-row-start: 0;
+  grid-row-end: span 8;
+  display: grid;
+  /* grid-template-rows: repeat(3, 1fr); */
+  grid-template-rows: 20% 15% 10%
+  grid-template-columns: 25% 1fr 1fr;
+  grid-column-gap: 1vmin;
+  grid-row-gap: 2vmin;
+
+
+}
+.one{
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start:2;
+  grid-column-end: span 3;
+  width: 63%;
+  margin-left: 28vmin;
+}
+.three{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:3;
+  grid-column-end: span 1;
+  padding: 5vmin;
+  width: 86%;
+}
+.two{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:2;
+  grid-column-end: span 1;
+  padding: 9vmin;
+}
+.four{
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  grid-column-start:3;
+  grid-column-end: span 2;
+  margin-left: 15vmin;
+  margin-bottom: 5vmin;
+  width: 80%;
+}
+.five{
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  grid-column-start:1;
+  grid-column-end: span 3;
+  margin-bottom: 5vmin;
+  width: 70%;
+  padding: 2vmin;
+}
